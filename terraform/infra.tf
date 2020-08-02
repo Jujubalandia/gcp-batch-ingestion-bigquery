@@ -7,7 +7,7 @@ terraform {
 }
 
 provider "google" {
-  project = "grey-sort-challenge"
+  project = "bera-testdrive"
   region = "southamerica-east1-a"
 }
 

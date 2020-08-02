@@ -57,6 +57,7 @@ public class TemplatePipeline {
     }
 
     public static class WikiParDo extends DoFn<String, TableRow> {
+        
         public static final String HEADER = "year,month,day,wikimedia_project,language,title,views";
 
         @ProcessElement
